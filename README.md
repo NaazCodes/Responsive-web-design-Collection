@@ -6,8 +6,9 @@ A collection of web design projects built using only HTML and CSS for learning p
 
 Here are some of my projects. Click the links to view them live:
 
-- [Personal Portfolio Website](personal-portfolio-website/)
-- [Product Landing Page](product-landing-page/)
-- [Survey Form](survey-form/)
-- [Technical Documentation](technical-documentation/)
-- [Tribute Form](tribute-form/)
+- [Personal Portfolio Website](https://NaazCodes.github.io/Responsive-web-design-Collection/personal-portfolio-website/)
+- [Product Landing Page](https://NaazCodes.github.io/Responsive-web-design-Collection/product-landing-page/)
+- [Survey Form](https://NaazCodes.github.io/Responsive-web-design-Collection/survey-form/)
+- [Technical Documentation](https://NaazCodes.github.io/Responsive-web-design-Collection/technical-documentation/)
+- [Tribute Form](https://NaazCodes.github.io/Responsive-web-design-Collection/tribute-form/)
+
