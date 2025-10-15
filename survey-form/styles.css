@@ -1,0 +1,127 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family:'Poppins', sans-serif;
+}
+
+
+form{
+  background-image: linear-gradient(rgba(93, 64, 34, 0.5));
+  margin-top: 100px;
+}
+
+
+.b-image{
+  background-image: linear-gradient(115deg, rgba(217, 159, 130, 0.8), rgba(248, 242, 236, 0.7)) ,url(https://i.pinimg.com/736x/10/e2/e2/10e2e2667d0c92a73408d1127b5be6a8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#title, #description{
+  text-align: center;
+}
+
+#title{
+    font-size: 70px;
+}
+
+#description{
+    font-size: 30px;
+}
+
+form{
+  width: 50vw;
+  height: 100%;
+  margin: 0 auto;
+  padding: 30px;
+  font-size: 25px;
+}
+
+input, select, textarea{
+  width: 100%;
+  min-height: 2em;
+}
+
+input, select{
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 3px solid rgb(159, 120, 100);
+    background-color: rgb(191, 167, 157);
+}
+
+.inline, .input-checkbox{
+  width: 20px;
+  vertical-align: middle;
+  margin: 0 0.5em 0 0;
+  height: 20px;
+}
+
+label{
+  display: block;
+  margin: 0.5rem 0;
+}
+
+fieldset{
+    border: none;
+}
+
+#feedback{
+    margin-bottom: 10px;
+}
+
+textarea{
+    margin-top: 8px;
+    border-radius: 10px;
+    background-color: rgb(191, 167, 157);
+}
+
+::placeholder{
+    color: black;
+    font-size: 20px;
+}
+
+#btn{
+  width: 9rem;
+  margin: 0 auto;
+
+}
+
+@media (max-width: 600px){
+
+  #title{
+    font-size: 2.3rem;
+}
+
+#description{
+    font-size: 1.2rem;
+}
+
+form{
+  width: 70vw;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 1rem;
+}
+
+input, select{
+    height: 30px;
+    font-size: 0.8rem;
+}
+
+::placeholder{
+    font-size: 0.8rem;
+    color: black;
+}
+
+.inline, .input-checkbox{
+  width: 17px;
+}
+
+#btn{
+  width: 6rem;
+  margin: 0 auto;
+}
+
+}

@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">
+            <img id="header-img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyI_m4SZsRaTujK6wg96IUn0u3cJbYty1oBQ&s">
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#video-wrap">Product</a></li>
+                <li><a class="nav-link" href="#pricing">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2><span>EcoTrail</span> - <em>Carry the Earth on Your Shoulders</em></h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input type="email" name="email" id="email" placeholder="Enter Email To Get Started" />
+            <input type="submit" id="submit"></input>
+        </form>
+    </section>
+    <section id="features">
+        <div class="feature">
+            <div class="icon">
+                <i class="fas fa-recycle"></i>
+            </div>
+            <div class="description">
+                <h2>Sustainable Materials</h2>
+                <p>Crafted from 100% recycled plastic, EcoTrail helps reduce environmental waste without compromising on
+                    strength or quality.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="icon">
+                <i class="fas fa-cloud-rain"></i>
+            </div>
+            <div class="description">
+                <h2>Weather-Resistant Design</h2>
+                <p>Built to handle rain, splashes, and dust—whether you're trekking through trails or commuting in the
+                    city.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="icon">
+                <i class="fas fa-box-open"></i>
+            </div>
+            <div class="description">
+                <h2> Smart Storage Layout</h2>
+                <p>Multiple compartments, a padded laptop sleeve, and easy-access pockets keep your essentials organized
+                    and secure.</p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <div class="icon">
+                <i class="fas fa-user-check"></i>
+            </div>
+            <div class="description">
+                <h2> Comfort for All-Day Wear</h2>
+                <p>Ergonomic straps, breathable back padding, and lightweight construction make it easy to carry all day
+                    without strain.</p>
+            </div>
+        </div>
+    </section>
+    <div id="video-wrap">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/c9dJfXMKOzw?si=e064EL1t9krPLLp8"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <section id="pricing">
+        <div class="product" id="lite">
+            <div class="level">EcoTrail Lite</div>
+            <h2 class="price">₹1,999</h2>
+            <ol>
+                <li>100% recycled</li>
+                <li>Lightweight</li>
+                <li>Padded straps </li>
+            </ol>
+            <button class="btn">Select</button>
+        </div>
+        <div class="product" id="pro">
+            <div class="level">EcoTrail Pro</div>
+            <h2 class="price" >₹2,999</h2>
+            <ol>
+                <li>laptop sleeve</li>
+                <li>Water-resistant </li>
+                <li>Hidden anti-theft </li>
+            </ol>
+            <button class="btn">Select</button>
+        </div>
+        <div class="product" id="explorer">
+            <div class="level">EcoTrail Explorer</div>
+            <h2 class="price">₹3,999</h2>
+            <ol>
+                <li>Extra-large</li>
+                <li>Weatherproof zippers </li>
+                <li>Built-in USB charging port</li>
+            </ol>
+            <button class="btn">Select</button>
+        </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

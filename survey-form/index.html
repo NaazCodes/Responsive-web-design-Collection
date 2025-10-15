@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey Form</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>
+  <div class="b-image">
+    <fieldset>
+  <h1 id="title">Cafe Feedback Survey</h1>
+    <p id="description"><em>Chutney Sambar Cafe-- where south indian falvors come alive!</em></p>
+    </fieldset>
+    <form id="survey-form">
+        <fieldset>
+      <label for="name" id="name-label">Name<input type="text" id="name" placeholder="Enter Your Name" required /> </label>
+      <label for="email" id="email-label">Email<input type="email" id="email" placeholder="Enter Your Email" required  /> </label>
+      <label for="number" id="number-label">Rating<input type="number" id="number" min="1" max="10" placeholder="Give Rating Between 1-10" required  /> </label>
+      <label for="dropdown">Have You Ever Visit Chutney Sambar Cafe?
+        <select id="dropdown">
+          <option value="">Select</option>
+          <option value="1">Yes</option>
+          <option value="2">No</option>
+        </select>
+      </label>
+      </fieldset>
+      <fieldset>
+      <legend>Do you like south indian food?</legend>
+      <label for="opt-yes">
+        <input type="radio" id="opt-yes" class="inline" name="likeornot" value="yes">Yes
+      </label>
+      <label for="opt-no">
+        <input type="radio" id="opt-no" class="inline" name="likeornot" value="no">No
+      </label>
+      <label for="opt-sometimes">
+        <input type="radio" id="opt-sometimes" class="inline" name="likeornot" value="sometimes" checked>Sometimes
+      </label>
+      </fieldset>
+      <fieldset>
+      <p>
+      What's your favorite south indian food?</p>
+      <label for="dosa">
+         <input type="checkbox" value="dosa" id="dosa" class="input-checkbox"/>Dosa
+      </label>
+      <label for="m-dosa">
+         <input type="checkbox" value="m-dosa" id="m-dosa" class="input-checkbox" />
+         Masala Dosa
+      </label>
+      <label for="p-dosa">
+         <input type="checkbox" value="p-dosa" id="p-dosa" class="input-checkbox" />
+         Plain Dosa
+      </label>
+      <label for="cheez">
+         <input type="checkbox" value="cheez" id="cheez" class="input-checkbox"/>
+         Cheez Dosa
+      </label>
+      <label for="idli">
+         <input type="checkbox" value="idli" id="idli"  class="input-checkbox"/>
+         Idli
+      </label>
+      <label for="vada">
+         <input type="checkbox" value="vada" id="vada" class="input-checkbox"/>
+         Medu Vada
+      </label>
+       <label for="all">
+         <input type="checkbox" value="all" id="all" class="input-checkbox"/>
+         All Of The Above
+      </label>
+     </fieldset>
+
+      <label for="feedback">Any Feedback?
+        <textarea id="feedback" rows="7" placeholder="Please give your feedback!"></textarea>
+      </label>
+      <label id="btn" for="submit">
+        <input type="submit" id="submit">
+      </label>
+    </form>
+  </div>
+</body>
+</html>

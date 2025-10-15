@@ -1,0 +1,109 @@
+body{
+  background-color: #C1BAA1;
+  font-family: "Edu SA Hand", cursive;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+
+#img-div{
+  width: 100%;
+  background-color: #A4907C;
+  text-align: center;
+}
+
+#img-caption{
+  padding-bottom: 20px;
+}
+
+#tribute-info{
+  word-spacing: 5px;
+  line-height: 25px;
+  margin: 20px 100px;
+}
+
+h1,h2, #txt{
+  text-align: center;
+}
+
+h1{
+  font-family: "Abril Fatface", serif;
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2rem;
+  font-family: "Abril Fatface", serif;
+}
+
+#txt{
+  font-size: 1.5rem;
+}
+
+#facts{
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+}
+
+a{
+  color: black;
+
+}
+
+a:hover{
+  color: grey;
+}
+
+#tribute-link-p{
+   font-family: "Abril Fatface", serif;
+   text-align: center;
+   margin-top: 70px;
+   font-size: 1.2rem;
+}
+
+@media (max-width: 600px){
+
+  h1{
+    font-size: 1.9rem;
+  }
+
+  #txt{
+  font-size: 1.3rem;
+}
+
+  #tribute-info{
+  margin: 10px 20px;
+  text-align: justify;
+}
+img{
+  width: 70%;
+}
+
+h2{
+  font-size: 1.4rem;
+}
+
+#facts{
+  max-width: 100%;
+}
+
+#tribute-link-p{
+  font-size: 1.1rem;
+}
+
+}
